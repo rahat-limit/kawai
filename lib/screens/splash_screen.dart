@@ -14,11 +14,12 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   Future _checkFirst() async {
     SharedPreferences pref = await SharedPreferences.getInstance();
-    pref.clear();
+    // pref.clear();
     // - to see intro screen
     bool check = pref.getBool('seen') ?? false;
-    if (check) {
-      pref.setBool('seen', true);
+    if (!check) {
+      await pref.setBool('seen', true);
+    } else {
       // ignore: use_build_context_synchronously
       Navigator.pushReplacementNamed(context, HomeScreen.routeName);
     }
