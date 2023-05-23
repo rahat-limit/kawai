@@ -33,6 +33,7 @@ A few of the things you can do with KAWAI:
 
 * [Local Storage SQflite](https://pub.dev/packages/sqflite)
 * [State-management BloC](https://bloclibrary.dev/)
+* [REST API](https://github.com/harrynull/random_anime_wallpaper)
 
 <p align="center">
     <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width=200>
