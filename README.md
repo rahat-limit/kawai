@@ -36,7 +36,7 @@ A few of the things you can do with KAWAI:
 * [REST API](https://github.com/harrynull/random_anime_wallpaper)
 
 <p align="center">
-    <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width=200>
+    <img src="https://www.postgresql.org//media/img/about/press/elephant.png" width=200>
     <img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" width=200>
 </p>
 
